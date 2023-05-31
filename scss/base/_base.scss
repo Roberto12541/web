@@ -9,27 +9,6 @@
     url('./font/MuseoSansRounded1000.otf')
     ;
 }
-/* width */
-::-webkit-scrollbar {
-width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background: #525fe1;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-background: #555;
-}
-
 *{
     margin: 0;
     padding: 0;
