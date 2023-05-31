@@ -80,13 +80,17 @@ header .navegacion button {
   gap: 20px;
   text-align: center;
 }
+.hero .texto h1 {
+  font-size: 2rem;
+}
 .hero .texto .botones {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.hero .texto .botones button {
+.hero .texto .botones a {
+  background-color: white;
   cursor: pointer;
   padding: 10px 18px;
   border-radius: 8px;
@@ -237,12 +241,15 @@ footer .pie .redes {
 }
 
 #contacto {
-  margin: 20px 0px;
+  margin: 20px 0px 40px 0px;
   padding: 0px 20px;
 }
 #contacto .contacto {
   display: flex;
   flex-direction: column;
+}
+#contacto .contacto .form h2 {
+  margin-bottom: 10px;
 }
 #contacto .contacto .form .forma {
   margin: 20px 0px;
@@ -253,7 +260,7 @@ footer .pie .redes {
 #contacto .contacto .form .forma input, #contacto .contacto .form .forma textarea {
   border: 1px solid #253025;
   border-radius: 8px;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 #contacto .contacto .form .forma button {
   border: none;
